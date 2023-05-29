@@ -3,10 +3,10 @@
 #include <ArduinoJson.h>
 
 
-#define FIREBASE_HOST "parkpro-1f07b-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "vvNJ3wMuPxibM60Mqq9ZbCvZ3BcVr8KbTQBjX9Av"
-#define WIFI_SSID "Redmik" 
-#define WIFI_PASSWORD "24102002AA"
+#define FIREBASE_HOST "XXXXXXXXXXXXXXXXXXX"         //Real Time Database Referance URL without https:// and / at end
+#define FIREBASE_AUTH "XXXXXXXXXXXXXXXXXXX"         //Database Secret Token
+#define WIFI_SSID "XXXXXXXXXXXXXX"                  
+#define WIFI_PASSWORD "XXXXXXXXXX"
 
 void setup() {
   Serial.begin(9600);  // Set the baud rate to match the Arduino Uno
